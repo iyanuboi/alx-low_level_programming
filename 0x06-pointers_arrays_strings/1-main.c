@@ -18,7 +18,7 @@ int main(void)
 	printf("%s /n", s1);
 	printf("%s /n", s2);
 	printf("%s /n", prt);
-	ptr = _strncat(s1, s2, 1024);
+	prt = _strncat(s1, s2, 1024);
 	printf("%s /n", s1);
 	printf("%s /n", s2);
 	printf("%s /n", prt);
